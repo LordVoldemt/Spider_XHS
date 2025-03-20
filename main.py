@@ -117,12 +117,12 @@ if __name__ == '__main__':
     ]
     data_spider.spider_some_note(notes, cookies_str, base_path, 'all', 'test')
 
-    # 2
+    2
     user_url = 'https://www.xiaohongshu.com/user/profile/67a332a2000000000d008358?xsec_token=ABTf9yz4cLHhTycIlksF0jOi1yIZgfcaQ6IXNNGdKJ8xg=&xsec_source=pc_feed'
     data_spider.spider_user_all_note(user_url, cookies_str, base_path, 'all')
 
     # 3
-    query = "榴莲"
+    query = "上海买车攻略"
     query_num = 10
     sort = "general"
     note_type = 0
